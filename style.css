@@ -1,0 +1,79 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Unbounded', sans-serif;
+  color: #f0f0f0;
+  background-color: #0b0c10;
+  overflow-x: hidden;
+}
+
+.background {
+  background: url('city-night.jpg') center/cover no-repeat;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.3) blur(3px);
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.subtitle {
+  color: #aaa;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav button {
+  background-color: #1f1f1f;
+  color: white;
+  border: 1px solid #333;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  background-color: #444;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
